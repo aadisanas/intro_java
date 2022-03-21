@@ -1,10 +1,19 @@
 class Main {
   public static void main(String[] args) {
-    System.out.println("Hello world!");
-    System.out.println("*  *  *");
-    System.out.println(" *  *");
-    System.out.println("  *");
+    int variableInt,variableA = 10 ;
+    variableInt = 1;
+    System.out.println(variableInt +"---"+ variableA);
+    float variableFloat;
+    variableFloat = 1.1f;
+    System.out.println(variableFloat);
+    boolean variableBoolean = true;
+    System.out.println(variableBoolean);
+      
+  
     
+  
+    
+     
     
    
     }
