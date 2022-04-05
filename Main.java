@@ -1,12 +1,22 @@
 class Main {
   public static void main(String[] args) {
-    int num = 11;
-    if(num%2 == 0){
-      System.out.println("This number is even!");
-    } else{
-      System.out.println("This number is odd!");
-    }
+    int variableOne = 1;
+    int variableCompare = 3;
+
+    if((variableCompare & variableOne) == 0){
+      System.out.println("This variable is even !");
+     }else{
+      System.out.println("This variable is odd !");
+     }
     
+    
+      
+      
+    
+      
+    
+    
+   
   
     
     
