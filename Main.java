@@ -1,13 +1,14 @@
 class Main {
   public static void main(String[] args) {
-    int variableOne = 1;
-    int variableCompare = 3;
-
-    if((variableCompare & variableOne) == 0){
-      System.out.println("This variable is even !");
-     }else{
-      System.out.println("This variable is odd !");
-     }
+    int variableCompare = -10;
+    if(variableCompare > 0){
+      System.out.println("This number is greater than Zero !");
+    }else if(variableCompare == 0){
+      System.out.println("This number is equal to Zero !");
+    }else{
+      System.out.println("This number is less than Zero !");
+    }
+      
     
     
       
