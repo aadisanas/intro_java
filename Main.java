@@ -1,13 +1,10 @@
 class Main {
   public static void main(String[] args) {
-    Lamp ledLamp = new Lamp();
-
-    ledLamp.turnOn();
-
-    Lamp halogenLamp = new Lamp();
-
-    halogenLamp.turnOff();
-      
+   CallByValue cbv = new CallByValue();
+   cbv.a = 10;
+    System.out.println(cbv.a);
+   cbv.update(cbv);
+    System.out.println(cbv.a);
     }
     
     
