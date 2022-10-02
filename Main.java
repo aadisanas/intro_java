@@ -1,11 +1,21 @@
 class Main {
   public static void main(String[] args) {
-   Student s1= new Student();
-    Student s2= new Student(222,"john");
-    Student s3= new Student(333);
-    s1.classId=11;
-    //s1.name="Alice";
+    StudentDetails sd= new StudentDetails();
+    StudentDetailsPrt sdp = new StudentDetailsPrt();
+    SpOnlineStudent2 sos2 = new SpOnlineStudent2();
+    SpOnlineStudent sos = new SpOnlineStudent();
     
-    s1.studentdata();
-  }
+
+    sd.fullTimeStudent();
+    sdp. partTimeStudent();
+    sdp. printName();
+    sd. printName();
+    sos2. onlineStudent1();
+    sos. onlineStudent();
+    sos. partTimeStudent();
+    
+
+
+
+      }
 }
