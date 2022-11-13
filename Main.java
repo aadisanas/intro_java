@@ -1,13 +1,27 @@
 import java.util.Scanner;
-public class Main{
-  public static void main(String args[]){
-    Scanner s= new Scanner(System.in);
-    String firstname = s.next();
-    String lastname = s.next();
-    String emailid = firstname + "." + lastname + "123" + "@gmail.com";
-    String emailid2 = firstname.substring(0,3) + "." + lastname.substring(lastname.length()-3) + "123@gmail.com" ;
-    System.out.println(emailid);
-    System.out.print(emailid2);
-    
+class Main{
+public static void main (String[] args) {
+        
+int[] numbers = new int[10];
+for ( int i = 0; i<10; i++){
+  numbers[i] = i+1;
+}boolean issearch = false; 
+Scanner s = new Scanner(System.in);
+int search = s.nextInt();
+for ( int i = 0; i<10; i++){
+  if (numbers[i] == search){
+    System.out.println("numberfoundat"+ i );
+  issearch = true;
+  
   }
+
+
+
+}
+if (issearch == false){
+  System.out.println("searchnumbernonexistent");
+  
+}
+}
+
 }
